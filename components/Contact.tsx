@@ -27,8 +27,14 @@ export default function Contact() {
               <span className="sm:whitespace-nowrap">
                 {contact.lineBottom}{" "}
                 <Magnetic>
-                  <a href={`mailto:${profile.email}`} className="text-lime transition-colors hover:text-lime">
+                  <a 
+                    href={`mailto:${profile.email}`} 
+                    className="inline-flex items-center gap-[0.15em] text-lime transition-colors hover:text-lime"
+                  >
                     {contact.highlight}
+                    <svg className="h-[0.8em] w-[0.8em] shrink-0 translate-y-[-0.05em]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.75">
+                      <path d="M7 17L17 7M9 7h8v8" />
+                    </svg>
                   </a>
                 </Magnetic>
               </span>

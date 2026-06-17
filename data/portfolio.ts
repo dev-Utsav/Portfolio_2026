@@ -182,7 +182,7 @@ const data: PortfolioData = {
     eyebrow: "✦ Open to full-time & management roles",
     lineTop: "Let's ship",
     lineBottom: "something",
-    highlight: "great ↗",
+    highlight: "great",
     copyright: "© 2026 Utsav — coordinating from Ahmedabad",
   },
 
