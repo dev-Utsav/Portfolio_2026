@@ -30,7 +30,7 @@ export default function Hero() {
               <span>{hero.nameLine1}</span>
             </span>
             <span className="animate-rise delay block overflow-hidden">
-              <span className="text-stroke inline-block whitespace-nowrap">
+              <span className="text-stroke inline-block sm:whitespace-nowrap">
                 {hero.nameLine2}
                 <span className="text-blue">.</span>
               </span>

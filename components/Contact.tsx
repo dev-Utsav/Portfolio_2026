@@ -24,7 +24,7 @@ export default function Contact() {
             <div className="font-display text-[clamp(44px,10vw,140px)] font-extrabold leading-[0.9] tracking-tight">
               {contact.lineTop}
               <br />
-              <span className="whitespace-nowrap">
+              <span className="sm:whitespace-nowrap">
                 {contact.lineBottom}{" "}
                 <Magnetic>
                   <a href={`mailto:${profile.email}`} className="text-lime transition-colors hover:text-lime">
